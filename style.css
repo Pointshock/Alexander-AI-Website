@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth 1s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+}
+
+ol, ul {
+    list-style: none;
+}
+/* Navigation Bar */
+
+/*Logo*/
+.logo__picture--mask {
+    width: 100px;
+    height: 105px;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+
+.logo__picture {
+    width: 100%;
+
+/* Improving my picture */
+transform: scale(.93);
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #013E62;
+}
+
+.nav__link--list {
+    display: flex;
+    padding-right: 20px;
+}
+
+.nav__link--anchor {
+    color: #242424;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav__link--anchor-primary {
+    background-color: #65728E;
+    padding: 8px 10px;
+    border-radius: 50px;
+    color: whitesmoke;
+}
+
+.nav__link--anchor-primary:hover {
+    background-color: #808ca5
+}
+
+.personal__logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+/* End of Navigation Bar */
+
+/* Start of Main */
+.main__info {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ABDD1;
+}
+
+.graph__design {
+    width: 50%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ABDD1;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #013E62;
+}
+
+
+.footer__row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0;
+}
+
+.footer__copyright {
+    color: black;
+}
+
+.footer__anchor {
+    margin-bottom: 20px;
+    position: relative;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Welcome to the Alexander AI website! This is version 1.0-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander AI</title>
+
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="navigation">
+        <nav>
+            <div>
+                <figure class="logo__picture--mask">
+                    <img src="./assets/Alexander_AI_Logo-removebg.png" alt="Logo" class="logo__picture">
+                </figure>
+            </div>
+            <div class="personal__logo">Alexander AI</div>
+            <ul class="nav__link--list">
+                <li class="nav__link"><a href="mailto:CHRTOMAS@uat.edu" class="nav__link--anchor nav__link--anchor-primary">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="main__info">
+        <h3>Future Tesla stock price prediction</h3>
+    </div>
+    <div style="justify-content: center; background-color: #9ABDD1;">
+    <div class="graph__design">
+        <canvas id="myChart"></canvas>
+    </div>
+    </div>
+    <div class="main__info">
+        <h3>Social sentiment rating: <span id="sentiment"></span></h3>
+    <script type="module" src="./main.js"></script>
+    </div>
+
+    <footer>
+        <div class="row footer__row">
+            <figure class="logo__picture--mask">
+                <img src="./assets/Alexander_AI_Logo-removebg.png" class="logo__picture" alt="My logo">
+            </figure>
+            <!--This website isn't actually copyright but it adds a nice touch-->
+            <div class="footer__copyright">Copyright © 2023 Alexander AI ALL Rights Reserved</div>
+        </div>
+    </footer>
+</body>
+</html>
